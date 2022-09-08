@@ -1,0 +1,154 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Tables {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="card ">
+      <div class="card-header">
+        <h4 class="card-title"> Simple Table</h4>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table tablesorter " id="">
+            <thead class=" text-primary">
+              <tr>
+                <th>
+                  Name of the Agent
+                </th>
+                <th>
+                  City
+                </th>
+                <th>
+                  Number of locations visited
+                </th>
+                <th class="text-center">
+                  Distance covered
+                </th>
+                <th class="text-center">
+                  Live Tracking
+                </th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  Puneeth Ram 
+                </td>
+                <td>
+                  Chennai
+                </td>
+                <td class="text-center">
+                  7
+                </td>
+                <td class="text-center">
+                  58
+                </td>
+                <td>
+                  <a class="btn btn-primary float-right" href="/live.html" role="button">Link</a>
+                    </td> 
+              </tr>
+              <tr>
+                <td>
+                  Suriya 
+                </td>
+                <td>
+                  Coimbatore
+                </td>
+                <td class="text-center">
+                  10
+                </td>
+                <td class="text-center">
+                  62
+                </td>
+                <td>
+                  <a class="btn btn-primary float-right" href="/live.html" role="button">Link</a>
+                    </td> 
+              </tr>
+              <tr>
+                <td>
+                  Harish Kumar
+                </td>
+                <td>
+                  Vellore
+                </td>
+                <td class="text-center">
+                  6
+                </td>
+                <td class="text-center">
+                  38
+                </td>
+                <td>
+                  <a class="btn btn-primary float-right" href="/live.html" role="button">Link</a>
+                    </td> 
+              </tr>
+              <tr>
+                <td>
+                  Pranav
+                </td>
+                <td>
+                  Kanya Kumari
+                </td>
+                <td class="text-center">
+                  7
+                </td>
+                <td class="text-center">
+                  47
+                </td>
+                <td>
+                  <a class="btn btn-primary float-right" href="/live.html" role="button">Link</a>
+                    </td> 
+              </tr>
+              <tr>
+                <td>
+                  Shyam
+                </td>
+                <td>
+                  Thiruvallur
+                </td>
+                <td class="text-center">
+                  12
+                </td>
+                <td class="text-center">
+                  70
+                </td>
+                <td>
+                  <a class="btn btn-primary float-right" href="/live.html" role="button">Link</a>
+                  </td>    
+              </tr>
+              <tr>
+                <td>
+                  Venkat
+                </td>
+                <td>
+                  Madurai
+                </td>
+                <td class="text-center">
+                  9
+                </td>
+                <td class="text-center">
+                  72
+                </td>
+                <td>
+                  <a class="btn btn-primary float-right" href="/live.html" role="button">Link</a>
+                    </td> 
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

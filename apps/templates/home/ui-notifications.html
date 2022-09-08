@@ -1,0 +1,51 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} UI Notifications {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title">Notifications</h4>
+      </div>
+      <div class="card-body">
+        
+        <div class="alert alert-info alert-with-icon" data-notify="container">
+          <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="tim-icons icon-simple-remove"></i>
+          </button>
+          <span data-notify="icon" class="tim-icons icon-bell-55"></span>
+          <span data-notify="message">Agent Venkat requesting invoice supply of product x.</span>
+        </div>
+        <div class="alert alert-info alert-with-icon" data-notify="container">
+          <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="tim-icons icon-simple-remove"></i>
+          </button>
+          <span data-notify="icon" class="tim-icons icon-bell-55"></span>
+          <span data-notify="message">Agent Pranav reached Tambaram.</span>
+        </div>
+        <div class="alert alert-info alert-with-icon" data-notify="container">
+          <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+            <i class="tim-icons icon-simple-remove"></i>
+          </button>
+          <span data-notify="icon" class="tim-icons icon-bell-55"></span>
+          <span data-notify="message">Agent suriya supllied product abc.</span>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
+
